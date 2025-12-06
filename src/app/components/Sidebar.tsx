@@ -16,7 +16,6 @@ export default function Sidebar() {
                         <a href="#about" className="block hover:text-white">About</a>
                         <a href="#experience" className="block hover:text-white">Experience</a>
                         <a href="#projects" className="block hover:text-white">Projects</a>
-                        <a href="#contact" className="block hover:text-white">Contact</a>
                     </nav>
                 </div>
 
