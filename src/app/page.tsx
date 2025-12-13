@@ -1,6 +1,6 @@
 'use client';
 
-import { useTheme } from '@/components/ThemeProvider';
+
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -11,10 +11,8 @@ import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 
 export default function Home() {
-  const { theme } = useTheme();
-
   return (
-    <main className="min-h-screen" key={theme}>
+    <main className="min-h-screen">
       <Navbar />
       <Hero />
       <About />
