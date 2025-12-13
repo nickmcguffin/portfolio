@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in-up">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Hi, I&apos;m <span className="text-blue-400">Nick</span>!
+            Hi, I&apos;m <span className="text-blue-400">Nick</span>
           </h1>
           <p className="text-xl md:text-2xl mb-6 text-blue-100">
             Full Stack Engineer & Problem Solver
